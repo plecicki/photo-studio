@@ -1,1 +1,38 @@
-  
+$logo-font: "Pacifico", serif;
+$greeting-part-1-font: "Ms Madi", serif;
+$greeting-part-2-font: "Press Start 2P", serif;
+
+$greeting-text-light-color: white;
+$greeting-text-dark-color: rgb(75, 46, 13);
+
+
+.navbar-brand {
+    font-family: $logo-font;
+    font-size: 30px;
+}
+
+.welcome-page > img {
+    height: calc(100vw/2 + 120px);
+}
+
+.greeting {
+    margin-top: calc(14vw + 60px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greeting-text {
+    font-size: calc(100vw/16);
+    text-align: center;
+}
+
+.greeting-part-1 {
+    font-family: $greeting-part-1-font;
+    font-weight: bold;
+    color: $greeting-text-dark-color;
+}
+
+.greeting-part-2 {
+    font-family: $greeting-part-2-font;
+    color: $greeting-text-light-color;
+}

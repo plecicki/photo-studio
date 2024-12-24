@@ -1,3 +1,32 @@
+.navbar-brand {
+  font-family: "Pacifico", serif;
+  font-size: 30px;
+}
 
+.welcome-page > img {
+  height: calc(50vw + 120px);
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.greeting {
+  margin-top: calc(14vw + 60px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.greeting-text {
+  font-size: 6.25vw;
+  text-align: center;
+}
+
+.greeting-part-1 {
+  font-family: "Ms Madi", serif;
+  font-weight: bold;
+  color: rgb(75, 46, 13);
+}
+
+.greeting-part-2 {
+  font-family: "Press Start 2P", serif;
+  color: white;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRQTtFQUNJLDhCQVRRO0VBVVIsZUFBQTtBQ1BKOztBRFVBO0VBQ0ksMEJBQUE7QUNQSjs7QURVQTtFQUNJLDZCQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQ1BKOztBRFVBO0VBQ0ksaUJBQUE7RUFDQSxrQkFBQTtBQ1BKOztBRFVBO0VBQ0ksNkJBNUJtQjtFQTZCbkIsaUJBQUE7RUFDQSxzQkExQnVCO0FDbUIzQjs7QURVQTtFQUNJLG9DQWpDbUI7RUFrQ25CLFlBaEN3QjtBQ3lCNUIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
