@@ -8,6 +8,8 @@ $greeting-text-dark-color: rgb(75, 46, 13);
 $services-icons-color: rgb(204, 173, 0);
 $portfolio-background: rgb(221, 221, 221);
 
+$footer-light-color: white;
+$footer-dark-color: black;
 
 .navbar-brand {
     font-family: $logo-font;
@@ -19,7 +21,7 @@ $portfolio-background: rgb(221, 221, 221);
 }
 
 .greeting {
-    margin-top: calc(14vw + 60px);
+    margin-top: calc(10vw + 60px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -99,4 +101,17 @@ $portfolio-background: rgb(221, 221, 221);
 
 .portfolio-paragraph {
     font-style: italic;
+}
+
+// Footer
+.social-media div {
+    font-size: 30px;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    background: $footer-dark-color;
+    border-radius: 50%;
+    i {
+        color: $footer-light-color;
+    }
 }
