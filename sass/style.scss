@@ -1,9 +1,11 @@
 $logo-font: "Pacifico", serif;
 $greeting-part-1-font: "Ms Madi", serif;
 $greeting-part-2-font: "Press Start 2P", serif;
+$services-font: "Roboto", serif;
 
 $greeting-text-light-color: white;
 $greeting-text-dark-color: rgb(75, 46, 13);
+$services-icons-color: rgb(204, 173, 0);
 
 
 .navbar-brand {
@@ -11,7 +13,7 @@ $greeting-text-dark-color: rgb(75, 46, 13);
     font-size: 30px;
 }
 
-.welcome-page > img {
+.welcome-page > img, .welcome-page {
     height: calc(100vw/2 + 120px);
 }
 
@@ -35,4 +37,33 @@ $greeting-text-dark-color: rgb(75, 46, 13);
 .greeting-part-2 {
     font-family: $greeting-part-2-font;
     color: $greeting-text-light-color;
+}
+
+// Services
+.services .row {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.services-header {
+    font-family: $services-font;
+    font-weight: bold;
+}
+
+.services-icon {
+    font-size: 30px;
+}
+
+.services-main-paragraph {
+    margin-bottom: 70px;
+}
+
+.services-paragraph {
+    font-style: italic;
+}
+
+.services-icon {
+    color: $services-icons-color;
+    border: solid 3px;
+    border-radius: 50%;
 }
