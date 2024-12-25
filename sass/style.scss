@@ -6,6 +6,7 @@ $services-font: "Roboto", serif;
 $greeting-text-light-color: white;
 $greeting-text-dark-color: rgb(75, 46, 13);
 $services-icons-color: rgb(204, 173, 0);
+$portfolio-background: rgb(221, 221, 221);
 
 
 .navbar-brand {
@@ -41,7 +42,7 @@ $services-icons-color: rgb(204, 173, 0);
 
 // Services
 .services .row {
-    padding-top: 70px;
+    padding: 70px 0;
     text-align: center;
 }
 
@@ -69,4 +70,33 @@ $services-icons-color: rgb(204, 173, 0);
     width: 67px;
     margin-left: auto;
     margin-right: auto;
+}
+
+// Portfolio
+.portfolio-background {
+    background: $portfolio-background;
+}
+
+.portfolio .row {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.portfolio-header {
+    font-family: $services-font;
+    font-weight: bold;
+}
+
+.portfolio-main-paragraph {
+    margin-bottom: 70px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.portfolio-paragraph {
+    font-style: italic;
 }
